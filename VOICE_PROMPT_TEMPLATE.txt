@@ -1,0 +1,4 @@
+Voice command example:
+"Hey FanzAgent, activate ai-technician-repair route. 
+My [exact phone model] screen was cracked but working fine, now suddenly glitching with [describe exactly: flickering lines on bottom, ghost touches, freezes when charging, worse with pressure]. 
+Diagnose, orchestrate the fix, start observer, and propagate the knowledge."

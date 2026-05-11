@@ -1,0 +1,10 @@
+{
+  "route": "/v1/agents/ai-technician-repair",
+  "version": "1.0",
+  "orchestrator": "FanzAgent v5.3",
+  "sub_agents": ["diagnostics", "observer", "planner", "technician", "propagator"],
+  "input": "voice or text symptoms + phone model + photos/videos",
+  "output": "diagnosis + custom repair plan + new knowledge atom",
+  "propagation": true,
+  "ties_to": ["Ai-technician-", "Buildhub-Agent-marketplace", "Service-buddy-pad-"]
+}
