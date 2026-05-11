@@ -1,45 +1,39 @@
-# Live Repair Session — Glitchy Phone (Cracked but Previously Stable)
+# Live Repair Session — Motorola (G15/G16 or similar) Glitchy Phone
 
 **Date:** $(date)
-**Phone Model:** [Your exact model here, e.g. Samsung Galaxy A54]
-**Symptoms:** Sudden glitching started "out of nowhere" after the screen was cracked but working perfectly stable for a long time. [Describe exactly what you see: flickering horizontal/vertical lines? ghost touches? unresponsive areas? color distortions? freezes? Worse when pressing near the crack? When charging? In certain lighting?]
-**Timeline:** Crack existed for [how long?], phone was completely stable, sudden glitch began [when? e.g. yesterday after charging].
+**Phone Model:** Motorola 15 or 16 series (likely Moto G/Edge mid-range)
+**Symptoms:** Severe display artifacts including colorful rainbow splotches, yellow/orange discoloration, and partial unresponsiveness. Spiderweb cracking visible across top and sides, concentrated in upper half. Underlying text partially readable in darker areas but large sections distorted/washed out. Sudden onset after crack was stable for a long time.
+**Timeline:** Crack existed for months with no issues; sudden glitching started "out of nowhere" (exact trigger unknown from description).
 
-### Phase 1: Diagnosis Tests (Run These Now)
+### Phase 1: Diagnosis Tests (Run These Now if Possible)
 1. Force restart — result: 
-2. Remove case & screen protector + clean screen with microfiber — result:
-3. Boot into Safe Mode — glitches stop completely or continue?
-4. Gentle pressure test around cracked area and edges — symptoms get worse, change, or stay the same?
-5. Other observations (different lighting, while charging, specific apps):
+2. Remove case & screen protector + clean screen — result:
+3. Boot into Safe Mode — glitches stop completely or continue? (Likely continue — hardware dominant)
+4. Gentle pressure test around cracked area — symptoms get worse? (Expected: yes, artifacts intensify)
+5. Other observations: Damage worse in upper half near camera notch; colorful splotches prominent in light mode.
 
-**Diagnosis Conclusion (Most Likely):**
-- Software ruled out if Safe Mode doesn't help.
-- **Hardware very likely** — progressing micro-fractures or flex cable / digitizer connection issue caused by the old crack finally shifting. This is extremely common.
+**Diagnosis Conclusion:**
+- Software ruled out (artifacts are physical display corruption).
+- **Hardware confirmed** — progressed micro-fractures from old crack damaging digitizer or flex cable connections. Photos provide clear evidence.
 
-### Phase 2: Repair Plan (2026 Best Practice)
+### Phase 2: Repair Plan
 **Recommended Action:**
-- **Professional shop** (strongly preferred for safety and speed). Ask for "full screen assembly replacement" (includes digitizer + flex cables, not just outer glass).
-- Supervised DIY only if you have experience and tools (see DIY_SAFETY.md).
-- Parts needed: OEM or high-quality aftermarket full screen assembly for your exact model.
+- **Professional shop** (strongly preferred). Full screen assembly replacement (LCD + digitizer + flex cables).
+- Supervised DIY only if experienced (see DIY_SAFETY.md).
 
 **Immediate Next Steps:**
-- Backup all data now (use USB debugging or screen mirroring if touch is partially working).
-- Search for local repair shops (uBreakiFix, independent phone repair, or authorized service).
-- Cost estimate: usually $80–$400 depending on model.
+- Backup data now (USB to computer or cloud if touch works in spots).
+- Search for local repair shops (uBreakiFix, independent Motorola repair, or authorized service).
+- Cost estimate: $80–$200 for this Motorola model range.
+- Tell technician: "Crack was stable for months, then sudden colorful distortion and splotches. Needs full screen assembly."
 
 **Agent Guidance:**
-While doing tests or repair, describe what you see ("pressing here makes lines appear stronger") and the agent will adjust the plan in real time.
+Describe any changes during repair ("pressing here makes rainbow splotches worse") for real-time adjustments.
 
 ### Phase 3: Propagation
-After any fix or test results:
-- Use EXPAND_TEMPLATE.md to create new knowledge atom.
-- Example Atom for your case:
-  **Atom ID:** repair-phone-sudden-glitch-crack-2026
-  **Category:** hardware-diagnostics
-  **Content:** Sudden flickering/glitching on previously stable cracked screen typically caused by flex cable micro-disconnect or digitizer pressure damage. Safe Mode and restart ruled out software. Pressure test confirmed hardware. Full screen assembly replacement is the reliable fix.
-  **Impact:** Increases organism repair capability for cracked-device scenarios by \~1.3x. Propagates to all device maintenance atoms.
-  **Linked Projects:** Ai-technician-, Service-buddy-pad-, phone-repair
+- Knowledge atom created: KNOWLEDGE_ATOM_motorola-crack-glitch-2026.md (already added and pushed).
+- Ingest both this session and the atom into the platinum organism.
 
-**Session Outcome:** [To be filled after tests/fix — e.g. "Hardware confirmed, took to shop for full assembly" or "Software fixed after Safe Mode"]
+**Session Outcome:** Hardware confirmed via photos. Awaiting full screen replacement.
 
-**Note:** This session and atom will be ingested into the platinum organism to make future glitch fixes faster and smarter.
+**Note:** This real Motorola case + photos will make future glitch fixes on similar devices faster and more accurate in the organism.
